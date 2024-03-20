@@ -7,6 +7,6 @@ const printArrayLength = async (items, callback) => {
 };
 
 printArrayLength(["A", "B", "C"], (length) => {
-  console.log(length);
+  console.log(`The array length is: ${length}`);
   console.log("Hello");
 });
